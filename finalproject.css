@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 46px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-style:groove;
+    align-items: center;
+}
+.menu{
+    margin-left: -300px;
+    position:relative;  
+}
+.menu-items{
+    display: none;
+    position:absolute; 
+    padding: 20px;
+    background-color: #435585;
+    list-style: none;
+    border-style:solid;
+    height: 80px;
+    width: 80px;
+    color: white;
+}
+ .menu:hover{
+    font-weight: bold;
+}
+.menu:hover .menu-items{
+    display: block;
+    transition: all 0.8s ease-in-out; 
+}
+.product{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.itro{
+    justify-content: center;
+}
+
+.icon{
+ margin-right: -300px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

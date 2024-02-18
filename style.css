@@ -1,0 +1,37 @@
+
+.box{
+
+    background-color:aqua ;
+    width: 200px ;
+    height: 200px ;
+    margin-bottom: 50px ;
+    box-sizing: border-box;
+    padding: 80px;
+}
+div{
+    width:200px;
+    height:200px;
+    background-color: aquamarine;
+}
+.Flex-container{
+    width:1000px;
+    height:500px;
+    background-color:brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Flex-item{
+    width:300px;
+    height:250px;
+    background-color:blueviolet;
+}
+
+
+
+/* display
+    inline: Hiển thị trên 1 dòng, và không thể set w-h
+    block: Hiển thị trên 2 dòng khác nhau, có thẻ set w-h
+    inline-block: Hiển thị trên cùng 1 dòng và có thể set w-h 
+*/

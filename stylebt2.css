@@ -1,0 +1,36 @@
+.opening{
+    background-color: #39A7FF;
+    display: block;
+    height: 80%;
+    width: 50%;
+}
+.detail1{
+    background-color: #E0F4FF;
+    display: block;
+    height: 80%;
+    width: 50%; 
+}
+.detail2{
+    background-color: #DDF2FD;
+    display: block;
+    height: 80%;
+    width: 50%; 
+}
+.detail3{
+    background-color: #FCF5ED;
+    display: block;
+    height: 80%;
+    width: 50%; 
+}
+.ending{
+    background-color: #435585;
+    display: block;
+    height: 80%;
+    width: 50%; 
+}
+div{
+    background-color:antiquewhite;
+    display: block;
+    height: 80%;
+    width: 50%; 
+}

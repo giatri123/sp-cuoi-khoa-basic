@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 46px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-style:groove;
+    align-items: center;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.img{
+    height: 500px;
+    width: 350px;
+}
+.product-item{
+    width: 350px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px; 
+}
